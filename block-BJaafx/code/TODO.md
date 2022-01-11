@@ -138,5 +138,29 @@ because function always  give a return value output.
 ```
 
 9. Can a function have multiple return statement? Give one example if possible and explain the reason.
+yes function   have multiple return statement.
+function check(num) {
+  if (num > 5) {
+    return 'Bigger than 5';
+  }
+
+  if (num < 5) {
+    return 'Smaller than 5';
+  }
+
+  return num;
+}
 
 10. What is the difference between `for` loop and `while` loop. What are the different place you can use them? Explain with example.
+for and while both a loop statement condition in the for loop we use the three condition first initilization , second loop end condition, third and last we use iteration.
+in while loop first we give the condition in while loop then after the statement of while block
+
+for(let i=0;i<=10;i++){
+  console.log(i);
+}
+
+let i=0;
+while(i<10){
+  console.log(i);
+  i++
+}
